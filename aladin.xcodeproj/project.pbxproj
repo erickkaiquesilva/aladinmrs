@@ -25,6 +25,7 @@
 		8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525FE2D5AA3E7007085DD /* FontStyle.swift */; };
 		8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526032D5AAA11007085DD /* ServiceBoxView.swift */; };
 		8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */; };
+		8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526092D5AABEC007085DD /* RepositoryType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		8CB525FE2D5AA3E7007085DD /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
 		8CB526032D5AAA11007085DD /* ServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBoxView.swift; sourceTree = "<group>"; };
 		8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerServiceBoxView.swift; sourceTree = "<group>"; };
+		8CB526092D5AABEC007085DD /* RepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,8 +207,8 @@
 		8CB525FB2D5AA19C007085DD /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				8CB525FC2D5AA1AC007085DD /* Space.swift */,
-				8CB525FE2D5AA3E7007085DD /* FontStyle.swift */,
+				8CB526082D5AABD6007085DD /* Model */,
+				8CB526072D5AABCD007085DD /* Enum */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -235,6 +237,23 @@
 				8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8CB526072D5AABCD007085DD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525FC2D5AA1AC007085DD /* Space.swift */,
+				8CB525FE2D5AA3E7007085DD /* FontStyle.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8CB526082D5AABD6007085DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526092D5AABEC007085DD /* RepositoryType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +390,7 @@
 				8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */,
 				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
 				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,
+				8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */,
 				8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
