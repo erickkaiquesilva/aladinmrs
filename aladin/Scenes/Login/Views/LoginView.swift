@@ -3,7 +3,6 @@ import SwiftUI
 struct LoginView: View {
 
     @StateObject private var viewModel: /*TODO LoginViewModel*/
-    @State private var inputToken: String = ""
     private var backgroundColor: Color {
         switch viewModel.repositoryType {
         case .bitbucket:
@@ -13,7 +12,7 @@ struct LoginView: View {
         case .github:
             return .githubBackground
         case .none:
-            return .backgroundPrimary
+            return .colorPrimary
         }
     }
 
@@ -50,7 +49,7 @@ struct LoginView: View {
             WindowManager.setWindowBackground(color: backgroundColor)
         }
         .onAppear {
-            WindowManager.setWindowBackground(color: .backgroundPrimary)
+            WindowManager.setWindowBackground(color: .colorPrimary)
         }
     }
 }
