@@ -1,4 +1,4 @@
-enum FontsType: String {
+enum FontType: String {
 
     // MARK: - Principal project font
     case ralewayThin = "Raleway-Thin"
