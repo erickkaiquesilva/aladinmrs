@@ -2,7 +2,7 @@ import SwiftUI
 
 struct LoginView: View {
 
-    @StateObject private var viewModel: /*TODO LoginViewModel*/
+    @StateObject private var viewModel: LoginViewModel
     private var backgroundColor: Color {
         switch viewModel.repositoryType {
         case .bitbucket:
@@ -24,7 +24,7 @@ struct LoginView: View {
         VStack {
             Text("Aladin Merge's")
                 .font(.largeTitle)
-                .foregroundStyle(.fontColorPrimary)
+                .foregroundStyle(.colorPrimary)
             if !viewModel.isLoading {
                 ContainerServiceBoxView(
                     repositoryType: viewModel.repositoryType,
@@ -53,7 +53,3 @@ struct LoginView: View {
         }
     }
 }
-
-//#Preview {
-//    LoginView()
-//}

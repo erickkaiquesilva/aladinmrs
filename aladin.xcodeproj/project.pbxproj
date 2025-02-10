@@ -28,6 +28,7 @@
 		8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526092D5AABEC007085DD /* RepositoryType.swift */; };
 		8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */; };
 		8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260F2D5AAC77007085DD /* WindownManager.swift */; };
+		8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526122D5AAF2E007085DD /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		8CB526092D5AABEC007085DD /* RepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryType.swift; sourceTree = "<group>"; };
 		8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCapturer.swift; sourceTree = "<group>"; };
 		8CB5260F2D5AAC77007085DD /* WindownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindownManager.swift; sourceTree = "<group>"; };
+		8CB526122D5AAF2E007085DD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 		8CB526012D5AA9BD007085DD /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8CB526112D5AAF21007085DD /* ViewModel */,
 				8CB526022D5AA9C4007085DD /* Views */,
 			);
 			path = Login;
@@ -276,6 +279,14 @@
 				8CB5260F2D5AAC77007085DD /* WindownManager.swift */,
 			);
 			path = Window;
+			sourceTree = "<group>";
+		};
+		8CB526112D5AAF21007085DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526122D5AAF2E007085DD /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +428,7 @@
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
+				8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
 				8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */,
 				8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */,
