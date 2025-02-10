@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B72D5A9739007085DD /* aladinApp.swift */; };
+		8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B92D5A9739007085DD /* ContentView.swift */; };
+		8CB525BC2D5A973A007085DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BB2D5A973A007085DD /* Assets.xcassets */; };
+		8CB525BF2D5A973A007085DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BE2D5A973A007085DD /* Preview Assets.xcassets */; };
+		8CB525CA2D5A973B007085DD /* aladinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525C92D5A973B007085DD /* aladinTests.swift */; };
+		8CB525D42D5A973B007085DD /* aladinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D32D5A973B007085DD /* aladinUITests.swift */; };
+		8CB525D62D5A973B007085DD /* aladinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */; };
+		8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E32D5A9D2B007085DD /* Colors.swift */; };
+		8CB525E72D5A9E98007085DD /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E62D5A9E98007085DD /* FontType.swift */; };
+		8CB525F52D5AA08C007085DD /* Raleway-Bold.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */; };
+		8CB525F62D5AA08D007085DD /* Raleway-Light.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */; };
+		8CB525F72D5AA08D007085DD /* Raleway-Medium.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */; };
+		8CB525F82D5AA08D007085DD /* Raleway-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */; };
+		8CB525F92D5AA08D007085DD /* Raleway-Thin.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */; };
+		8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525FC2D5AA1AC007085DD /* Space.swift */; };
+		8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525FE2D5AA3E7007085DD /* FontStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB525C62D5A973B007085DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB525AC2D5A9739007085DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB525B32D5A9739007085DD;
+			remoteInfo = aladin;
+		};
+		8CB525D02D5A973B007085DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB525AC2D5A9739007085DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB525B32D5A9739007085DD;
+			remoteInfo = aladin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CB525F42D5AA06D007085DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Resources/Fonts/ttf;
+			dstSubfolderSpec = 7;
+			files = (
+				8CB525F52D5AA08C007085DD /* Raleway-Bold.ttf in CopyFiles */,
+				8CB525F62D5AA08D007085DD /* Raleway-Light.ttf in CopyFiles */,
+				8CB525F72D5AA08D007085DD /* Raleway-Medium.ttf in CopyFiles */,
+				8CB525F82D5AA08D007085DD /* Raleway-Regular.ttf in CopyFiles */,
+				8CB525F92D5AA08D007085DD /* Raleway-Thin.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CB525B42D5A9739007085DD /* aladin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aladin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB525B72D5A9739007085DD /* aladinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinApp.swift; sourceTree = "<group>"; };
+		8CB525B92D5A9739007085DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CB525BB2D5A973A007085DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB525BE2D5A973A007085DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CB525C02D5A973A007085DD /* aladin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aladin.entitlements; sourceTree = "<group>"; };
+		8CB525C52D5A973B007085DD /* aladinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aladinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB525C92D5A973B007085DD /* aladinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinTests.swift; sourceTree = "<group>"; };
+		8CB525CF2D5A973B007085DD /* aladinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aladinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB525D32D5A973B007085DD /* aladinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITests.swift; sourceTree = "<group>"; };
+		8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB525E32D5A9D2B007085DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8CB525E62D5A9E98007085DD /* FontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		8CB525E92D5A9F7A007085DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		8CB525FC2D5AA1AC007085DD /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		8CB525FE2D5AA3E7007085DD /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB525B12D5A9739007085DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525C22D5A973B007085DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525CC2D5A973B007085DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB525AB2D5A9739007085DD = {
+			isa = PBXGroup;
+			children = (
+				8CB525B62D5A9739007085DD /* aladin */,
+				8CB525C82D5A973B007085DD /* aladinTests */,
+				8CB525D22D5A973B007085DD /* aladinUITests */,
+				8CB525B52D5A9739007085DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB525B52D5A9739007085DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525B42D5A9739007085DD /* aladin.app */,
+				8CB525C52D5A973B007085DD /* aladinTests.xctest */,
+				8CB525CF2D5A973B007085DD /* aladinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB525B62D5A9739007085DD /* aladin */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525FB2D5AA19C007085DD /* Commons */,
+				8CB525E92D5A9F7A007085DD /* Info.plist */,
+				8CB525E22D5A9912007085DD /* Resources */,
+				8CB525B72D5A9739007085DD /* aladinApp.swift */,
+				8CB525B92D5A9739007085DD /* ContentView.swift */,
+				8CB525C02D5A973A007085DD /* aladin.entitlements */,
+				8CB525BD2D5A973A007085DD /* Preview Content */,
+			);
+			path = aladin;
+			sourceTree = "<group>";
+		};
+		8CB525BD2D5A973A007085DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525BE2D5A973A007085DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CB525C82D5A973B007085DD /* aladinTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525C92D5A973B007085DD /* aladinTests.swift */,
+			);
+			path = aladinTests;
+			sourceTree = "<group>";
+		};
+		8CB525D22D5A973B007085DD /* aladinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525D32D5A973B007085DD /* aladinUITests.swift */,
+				8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */,
+			);
+			path = aladinUITests;
+			sourceTree = "<group>";
+		};
+		8CB525E22D5A9912007085DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525E52D5A9E82007085DD /* Fonts */,
+				8CB525BB2D5A973A007085DD /* Assets.xcassets */,
+				8CB525E32D5A9D2B007085DD /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CB525E52D5A9E82007085DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525E82D5A9EDF007085DD /* ttf */,
+				8CB525E62D5A9E98007085DD /* FontType.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8CB525E82D5A9EDF007085DD /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */,
+				8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */,
+				8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */,
+				8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */,
+				8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */,
+			);
+			path = ttf;
+			sourceTree = "<group>";
+		};
+		8CB525FB2D5AA19C007085DD /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525FC2D5AA1AC007085DD /* Space.swift */,
+				8CB525FE2D5AA3E7007085DD /* FontStyle.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB525B32D5A9739007085DD /* aladin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB525D92D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladin" */;
+			buildPhases = (
+				8CB525B02D5A9739007085DD /* Sources */,
+				8CB525B12D5A9739007085DD /* Frameworks */,
+				8CB525B22D5A9739007085DD /* Resources */,
+				8CB525F42D5AA06D007085DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aladin;
+			productName = aladin;
+			productReference = 8CB525B42D5A9739007085DD /* aladin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB525C42D5A973B007085DD /* aladinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB525DC2D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladinTests" */;
+			buildPhases = (
+				8CB525C12D5A973B007085DD /* Sources */,
+				8CB525C22D5A973B007085DD /* Frameworks */,
+				8CB525C32D5A973B007085DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB525C72D5A973B007085DD /* PBXTargetDependency */,
+			);
+			name = aladinTests;
+			productName = aladinTests;
+			productReference = 8CB525C52D5A973B007085DD /* aladinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB525CE2D5A973B007085DD /* aladinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB525DF2D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladinUITests" */;
+			buildPhases = (
+				8CB525CB2D5A973B007085DD /* Sources */,
+				8CB525CC2D5A973B007085DD /* Frameworks */,
+				8CB525CD2D5A973B007085DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB525D12D5A973B007085DD /* PBXTargetDependency */,
+			);
+			name = aladinUITests;
+			productName = aladinUITests;
+			productReference = 8CB525CF2D5A973B007085DD /* aladinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB525AC2D5A9739007085DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8CB525B32D5A9739007085DD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8CB525C42D5A973B007085DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8CB525B32D5A9739007085DD;
+					};
+					8CB525CE2D5A973B007085DD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8CB525B32D5A9739007085DD;
+					};
+				};
+			};
+			buildConfigurationList = 8CB525AF2D5A9739007085DD /* Build configuration list for PBXProject "aladin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB525AB2D5A9739007085DD;
+			productRefGroup = 8CB525B52D5A9739007085DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB525B32D5A9739007085DD /* aladin */,
+				8CB525C42D5A973B007085DD /* aladinTests */,
+				8CB525CE2D5A973B007085DD /* aladinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB525B22D5A9739007085DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB525BF2D5A973A007085DD /* Preview Assets.xcassets in Resources */,
+				8CB525BC2D5A973A007085DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525C32D5A973B007085DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525CD2D5A973B007085DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB525B02D5A9739007085DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
+				8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */,
+				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
+				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
+				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
+				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525C12D5A973B007085DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB525CA2D5A973B007085DD /* aladinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB525CB2D5A973B007085DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB525D42D5A973B007085DD /* aladinUITests.swift in Sources */,
+				8CB525D62D5A973B007085DD /* aladinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB525C72D5A973B007085DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB525B32D5A9739007085DD /* aladin */;
+			targetProxy = 8CB525C62D5A973B007085DD /* PBXContainerItemProxy */;
+		};
+		8CB525D12D5A973B007085DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB525B32D5A9739007085DD /* aladin */;
+			targetProxy = 8CB525D02D5A973B007085DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CB525D72D5A973B007085DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB525D82D5A973B007085DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8CB525DA2D5A973B007085DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aladin/aladin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aladin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aladin/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8CB525DB2D5A973B007085DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aladin/aladin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aladin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aladin/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8CB525DD2D5A973B007085DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aladin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aladin";
+			};
+			name = Debug;
+		};
+		8CB525DE2D5A973B007085DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aladin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aladin";
+			};
+			name = Release;
+		};
+		8CB525E02D5A973B007085DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = aladin;
+			};
+			name = Debug;
+		};
+		8CB525E12D5A973B007085DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.aladinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = aladin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB525AF2D5A9739007085DD /* Build configuration list for PBXProject "aladin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB525D72D5A973B007085DD /* Debug */,
+				8CB525D82D5A973B007085DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB525D92D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB525DA2D5A973B007085DD /* Debug */,
+				8CB525DB2D5A973B007085DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB525DC2D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB525DD2D5A973B007085DD /* Debug */,
+				8CB525DE2D5A973B007085DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB525DF2D5A973B007085DD /* Build configuration list for PBXNativeTarget "aladinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB525E02D5A973B007085DD /* Debug */,
+				8CB525E12D5A973B007085DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB525AC2D5A9739007085DD /* Project object */;
+}

@@ -1,0 +1,55 @@
+### Default ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### log e caches
+*.swp
+*.lock
+*.log
+*.xcuserstate
+xcuserdata/
+
+### Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+### CocoaPods
+Pods/
+Podfile.lock
+
+### Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+### Xcode
+DerivedData/
+*.xcworkspace/
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+### Build
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+### Certified
+*.mobileprovision
+*.cer
+*.p12
+*.pem
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+### Enviroments
+.env
