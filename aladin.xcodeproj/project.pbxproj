@@ -16,6 +16,11 @@
 		8CB525D62D5A973B007085DD /* aladinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */; };
 		8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E32D5A9D2B007085DD /* Colors.swift */; };
 		8CB525E72D5A9E98007085DD /* FontsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E62D5A9E98007085DD /* FontsType.swift */; };
+		8CB525F52D5AA08C007085DD /* Raleway-Bold.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */; };
+		8CB525F62D5AA08D007085DD /* Raleway-Light.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */; };
+		8CB525F72D5AA08D007085DD /* Raleway-Medium.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */; };
+		8CB525F82D5AA08D007085DD /* Raleway-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */; };
+		8CB525F92D5AA08D007085DD /* Raleway-Thin.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8CB525F42D5AA06D007085DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Resources/Fonts/ttf;
+			dstSubfolderSpec = 7;
+			files = (
+				8CB525F52D5AA08C007085DD /* Raleway-Bold.ttf in CopyFiles */,
+				8CB525F62D5AA08D007085DD /* Raleway-Light.ttf in CopyFiles */,
+				8CB525F72D5AA08D007085DD /* Raleway-Medium.ttf in CopyFiles */,
+				8CB525F82D5AA08D007085DD /* Raleway-Regular.ttf in CopyFiles */,
+				8CB525F92D5AA08D007085DD /* Raleway-Thin.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8CB525B42D5A9739007085DD /* aladin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aladin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB525B72D5A9739007085DD /* aladinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinApp.swift; sourceTree = "<group>"; };
@@ -49,6 +71,12 @@
 		8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CB525E32D5A9D2B007085DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8CB525E62D5A9E98007085DD /* FontsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsType.swift; sourceTree = "<group>"; };
+		8CB525E92D5A9F7A007085DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,7 @@
 		8CB525B62D5A9739007085DD /* aladin */ = {
 			isa = PBXGroup;
 			children = (
+				8CB525E92D5A9F7A007085DD /* Info.plist */,
 				8CB525E22D5A9912007085DD /* Resources */,
 				8CB525B72D5A9739007085DD /* aladinApp.swift */,
 				8CB525B92D5A9739007085DD /* ContentView.swift */,
@@ -155,6 +184,11 @@
 		8CB525E82D5A9EDF007085DD /* ttf */ = {
 			isa = PBXGroup;
 			children = (
+				8CB525EB2D5A9F92007085DD /* Raleway-Bold.ttf */,
+				8CB525EA2D5A9F92007085DD /* Raleway-Light.ttf */,
+				8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */,
+				8CB525EC2D5A9F92007085DD /* Raleway-Regular.ttf */,
+				8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */,
 			);
 			path = ttf;
 			sourceTree = "<group>";
@@ -169,6 +203,7 @@
 				8CB525B02D5A9739007085DD /* Sources */,
 				8CB525B12D5A9739007085DD /* Frameworks */,
 				8CB525B22D5A9739007085DD /* Resources */,
+				8CB525F42D5AA06D007085DD /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -459,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"aladin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aladin/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +520,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"aladin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aladin/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
