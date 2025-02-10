@@ -14,6 +14,7 @@
 		8CB525CA2D5A973B007085DD /* aladinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525C92D5A973B007085DD /* aladinTests.swift */; };
 		8CB525D42D5A973B007085DD /* aladinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D32D5A973B007085DD /* aladinUITests.swift */; };
 		8CB525D62D5A973B007085DD /* aladinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */; };
+		8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E32D5A9D2B007085DD /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8CB525CF2D5A973B007085DD /* aladinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aladinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB525D32D5A973B007085DD /* aladinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITests.swift; sourceTree = "<group>"; };
 		8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB525E32D5A9D2B007085DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,9 @@
 		8CB525B62D5A9739007085DD /* aladin */ = {
 			isa = PBXGroup;
 			children = (
+				8CB525E22D5A9912007085DD /* Resources */,
 				8CB525B72D5A9739007085DD /* aladinApp.swift */,
 				8CB525B92D5A9739007085DD /* ContentView.swift */,
-				8CB525BB2D5A973A007085DD /* Assets.xcassets */,
 				8CB525C02D5A973A007085DD /* aladin.entitlements */,
 				8CB525BD2D5A973A007085DD /* Preview Content */,
 			);
@@ -127,6 +129,15 @@
 				8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */,
 			);
 			path = aladinUITests;
+			sourceTree = "<group>";
+		};
+		8CB525E22D5A9912007085DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525BB2D5A973A007085DD /* Assets.xcassets */,
+				8CB525E32D5A9D2B007085DD /* Colors.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */,
+				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
