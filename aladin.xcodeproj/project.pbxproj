@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B72D5A9739007085DD /* aladinApp.swift */; };
-		8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B92D5A9739007085DD /* ContentView.swift */; };
+		8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B92D5A9739007085DD /* LoginView.swift */; };
 		8CB525BC2D5A973A007085DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BB2D5A973A007085DD /* Assets.xcassets */; };
 		8CB525BF2D5A973A007085DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BE2D5A973A007085DD /* Preview Assets.xcassets */; };
 		8CB525CA2D5A973B007085DD /* aladinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525C92D5A973B007085DD /* aladinTests.swift */; };
@@ -23,6 +23,8 @@
 		8CB525F92D5AA08D007085DD /* Raleway-Thin.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CB525ED2D5A9F92007085DD /* Raleway-Thin.ttf */; };
 		8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525FC2D5AA1AC007085DD /* Space.swift */; };
 		8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525FE2D5AA3E7007085DD /* FontStyle.swift */; };
+		8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526032D5AAA11007085DD /* ServiceBoxView.swift */; };
+		8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +64,7 @@
 /* Begin PBXFileReference section */
 		8CB525B42D5A9739007085DD /* aladin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aladin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB525B72D5A9739007085DD /* aladinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinApp.swift; sourceTree = "<group>"; };
-		8CB525B92D5A9739007085DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CB525B92D5A9739007085DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8CB525BB2D5A973A007085DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB525BE2D5A973A007085DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CB525C02D5A973A007085DD /* aladin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aladin.entitlements; sourceTree = "<group>"; };
@@ -81,6 +83,8 @@
 		8CB525EE2D5A9F92007085DD /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
 		8CB525FC2D5AA1AC007085DD /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
 		8CB525FE2D5AA3E7007085DD /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		8CB526032D5AAA11007085DD /* ServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBoxView.swift; sourceTree = "<group>"; };
+		8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerServiceBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +135,11 @@
 		8CB525B62D5A9739007085DD /* aladin */ = {
 			isa = PBXGroup;
 			children = (
+				8CB526002D5AA9B7007085DD /* Scenes */,
 				8CB525FB2D5AA19C007085DD /* Commons */,
 				8CB525E92D5A9F7A007085DD /* Info.plist */,
 				8CB525E22D5A9912007085DD /* Resources */,
 				8CB525B72D5A9739007085DD /* aladinApp.swift */,
-				8CB525B92D5A9739007085DD /* ContentView.swift */,
 				8CB525C02D5A973A007085DD /* aladin.entitlements */,
 				8CB525BD2D5A973A007085DD /* Preview Content */,
 			);
@@ -205,6 +209,32 @@
 				8CB525FE2D5AA3E7007085DD /* FontStyle.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		8CB526002D5AA9B7007085DD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526012D5AA9BD007085DD /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8CB526012D5AA9BD007085DD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526022D5AA9C4007085DD /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8CB526022D5AA9C4007085DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525B92D5A9739007085DD /* LoginView.swift */,
+				8CB526032D5AAA11007085DD /* ServiceBoxView.swift */,
+				8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */,
 				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
-				8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */,
+				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,
+				8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,

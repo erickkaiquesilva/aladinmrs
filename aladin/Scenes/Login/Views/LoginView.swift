@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  aladin
-//
-//  Created by Magalu on 10/02/25.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,6 +12,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    LoginView()
+//}
