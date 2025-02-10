@@ -15,6 +15,7 @@
 		8CB525D42D5A973B007085DD /* aladinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D32D5A973B007085DD /* aladinUITests.swift */; };
 		8CB525D62D5A973B007085DD /* aladinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */; };
 		8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E32D5A9D2B007085DD /* Colors.swift */; };
+		8CB525E72D5A9E98007085DD /* FontsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525E62D5A9E98007085DD /* FontsType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8CB525D32D5A973B007085DD /* aladinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITests.swift; sourceTree = "<group>"; };
 		8CB525D52D5A973B007085DD /* aladinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CB525E32D5A9D2B007085DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8CB525E62D5A9E98007085DD /* FontsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +136,27 @@
 		8CB525E22D5A9912007085DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8CB525E52D5A9E82007085DD /* Fonts */,
 				8CB525BB2D5A973A007085DD /* Assets.xcassets */,
 				8CB525E32D5A9D2B007085DD /* Colors.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CB525E52D5A9E82007085DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CB525E82D5A9EDF007085DD /* ttf */,
+				8CB525E62D5A9E98007085DD /* FontsType.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8CB525E82D5A9EDF007085DD /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ttf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +291,7 @@
 			files = (
 				8CB525BA2D5A9739007085DD /* ContentView.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
+				8CB525E72D5A9E98007085DD /* FontsType.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
