@@ -26,6 +26,8 @@
 		8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526032D5AAA11007085DD /* ServiceBoxView.swift */; };
 		8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */; };
 		8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526092D5AABEC007085DD /* RepositoryType.swift */; };
+		8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */; };
+		8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260F2D5AAC77007085DD /* WindownManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		8CB526032D5AAA11007085DD /* ServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBoxView.swift; sourceTree = "<group>"; };
 		8CB526052D5AAA90007085DD /* ContainerServiceBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerServiceBoxView.swift; sourceTree = "<group>"; };
 		8CB526092D5AABEC007085DD /* RepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryType.swift; sourceTree = "<group>"; };
+		8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCapturer.swift; sourceTree = "<group>"; };
+		8CB5260F2D5AAC77007085DD /* WindownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindownManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		8CB525B62D5A9739007085DD /* aladin */ = {
 			isa = PBXGroup;
 			children = (
+				8CB5260B2D5AAC40007085DD /* Helpers */,
 				8CB526002D5AA9B7007085DD /* Scenes */,
 				8CB525FB2D5AA19C007085DD /* Commons */,
 				8CB525E92D5A9F7A007085DD /* Info.plist */,
@@ -254,6 +259,23 @@
 				8CB526092D5AABEC007085DD /* RepositoryType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8CB5260B2D5AAC40007085DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5260C2D5AAC53007085DD /* Window */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8CB5260C2D5AAC53007085DD /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */,
+				8CB5260F2D5AAC77007085DD /* WindownManager.swift */,
+			);
+			path = Window;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +418,8 @@
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
+				8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */,
+				8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
