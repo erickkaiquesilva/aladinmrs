@@ -11,7 +11,7 @@ struct PrimaryButtonStyle: ButtonStyle {
             .frame(height: type.height)
             .background(.colorButtonPrimary)
             .foregroundColor(.colorTertiary)
-            .cornerRadius(Radius.xSmall.rawValue)
+            .cornerRadius(Radius.small.rawValue)
             .scaleEffect(configuration.isPressed ? 0.90 : 1.0)
     }
 }

@@ -11,7 +11,8 @@ struct ServiceBoxView: View {
     let didSelect: () -> Void
 
     // MARK: - States
-    @State var text: String = ""
+    @State var baseUrlService: String = ""
+    @State var token: String = ""
 
     var body: some View {
         HStack(spacing: 4) {
@@ -30,20 +31,24 @@ struct ServiceBoxView: View {
             .frame(width: 250)
 
             if isSelected {
-                VStack(spacing: 8) {
-                    CustomTextField(
-                        text: $text,
-                        placeholder: "Informe seu token",
-                        width: 450,
-                        height: 35
+                VStack(spacing: 2) {
+                    InputNormal(
+                        outputValue: $baseUrlService,
+                        placeholder: "Informe o caminho base do serviço que você deseja se autenticar",
+                        width: 350
                     )
-                    HStack(spacing: 4) {
+                    InputSecure(
+                        outputValue: $token,
+                        placeholder: "Informe seu token para validar na seção",
+                        width: 350
+                    )
+                    HStack(spacing: Space.large.rawValue) {
                         Button(action: didDeselect) {
                             Text("Voltar para o inicio")
                         }
                         .buttonStyle(LinkButtonStyle(type: .small, icon: nil))
                         Button {
-                            didConfirme(text)
+                            didConfirme("")
                         } label: {
                             Text("Autenticar")
                         }
@@ -52,28 +57,5 @@ struct ServiceBoxView: View {
                 }
             }
         }
-    }
-}
-
-struct CustomTextField: View {
-    @Binding var text: String
-    var placeholder: String
-    var width: CGFloat
-    var height: CGFloat
-    
-    var body: some View {
-        TextField(placeholder, text: $text)
-            .frame(width: width, height: height)
-            .padding()
-            .background(Color.gray.opacity(0.2))
-            .cornerRadius(10)
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.blue, lineWidth: 2)
-            )
-            .padding()
-            .font(.custom("HelveticaNeue", size: 18))
-            .textFieldStyle(PlainTextFieldStyle()) // Remove o estilo padrão com seleção azul
-            .accentColor(.clear) // Remove a cor do cursor
     }
 }
