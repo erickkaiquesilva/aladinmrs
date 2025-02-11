@@ -14,9 +14,10 @@ struct LinkButtonStyle: ButtonStyle {
                 .font(type.font)
         }
         .padding()
+        .font(type.font)
         .frame(height: type.height)
         .foregroundColor(.colorTertiary)
-        .background(configuration.isPressed ? .colorButtonSecondary.opacity(0.5) : .colorButtonSecondary)
+        .background(.clear)
         .animation(.easeInOut(duration: 0.2), value: configuration.isPressed)
     }
 }

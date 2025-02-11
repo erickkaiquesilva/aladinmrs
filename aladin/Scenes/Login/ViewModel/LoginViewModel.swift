@@ -19,11 +19,17 @@ final class LoginViewModel: ObservableObject {
     // MARK: Public methods
 
     func seletedRepository(type: RepositoriesType) {
-        /// TODO implement logic for select item
+        if repositoryType != type {
+            repositoryType = type
+            isSelectedRepository = true
+        }
     }
 
     func deselectedRepository() {
-        /// TODO implement logic for deselect item selected
+        if isSelectedRepository {
+            repositoryType = .none
+            isSelectedRepository = false
+        }
     }
 
     func authentication(with token: String) {

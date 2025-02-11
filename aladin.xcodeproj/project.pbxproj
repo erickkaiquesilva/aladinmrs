@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7F715E2D5BF3A100A3ED05 /* InputNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F715D2D5BF3A100A3ED05 /* InputNormal.swift */; };
+		8C7F71602D5BF4CF00A3ED05 /* InputSecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F715F2D5BF4CF00A3ED05 /* InputSecure.swift */; };
 		8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B72D5A9739007085DD /* aladinApp.swift */; };
 		8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B92D5A9739007085DD /* LoginView.swift */; };
 		8CB525BC2D5A973A007085DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BB2D5A973A007085DD /* Assets.xcassets */; };
@@ -71,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C7F715D2D5BF3A100A3ED05 /* InputNormal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNormal.swift; sourceTree = "<group>"; };
+		8C7F715F2D5BF4CF00A3ED05 /* InputSecure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSecure.swift; sourceTree = "<group>"; };
 		8CB525B42D5A9739007085DD /* aladin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aladin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB525B72D5A9739007085DD /* aladinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinApp.swift; sourceTree = "<group>"; };
 		8CB525B92D5A9739007085DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C7F715C2D5BF36800A3ED05 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F715D2D5BF3A100A3ED05 /* InputNormal.swift */,
+				8C7F715F2D5BF4CF00A3ED05 /* InputSecure.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		8CB525AB2D5A9739007085DD = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +317,7 @@
 		8CB526142D5AC489007085DD /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8C7F715C2D5BF36800A3ED05 /* TextField */,
 				8CB526152D5AC491007085DD /* Button */,
 			);
 			path = Components;
@@ -460,6 +474,8 @@
 				8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */,
+				8C7F71602D5BF4CF00A3ED05 /* InputSecure.swift in Sources */,
+				8C7F715E2D5BF3A100A3ED05 /* InputNormal.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */,
 				8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */,
