@@ -10,14 +10,14 @@ struct InputSecure: View {
         SecureField(placeholder, text: $outputValue)
             .frame(width: width != nil ? width : .infinity, height: 35)
             .padding()
-            .background(Color.gray.opacity(0.2))
+            .background(.colorTertiary.opacity(0.2))
             .cornerRadius(10)
             .overlay(
                 RoundedRectangle(cornerRadius: Radius.medium.rawValue)
                     .stroke(Color.clear, lineWidth: 2)
             )
             .padding()
-            .font(.descriptionXlarge)
+            .font(.createFont(type: .ralewayMedium, size: 14))
             .textFieldStyle(PlainTextFieldStyle())
             .accentColor(.clear)
     }
