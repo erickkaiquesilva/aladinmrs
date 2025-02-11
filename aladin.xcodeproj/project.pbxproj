@@ -29,6 +29,11 @@
 		8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */; };
 		8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5260F2D5AAC77007085DD /* WindownManager.swift */; };
 		8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526122D5AAF2E007085DD /* LoginViewModel.swift */; };
+		8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */; };
+		8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526182D5B63F0007085DD /* ButtonType.swift */; };
+		8CB5261B2D5B662E007085DD /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5261A2D5B662E007085DD /* Radius.swift */; };
+		8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */; };
+		8CB526212D5B6AAE007085DD /* LinkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,11 @@
 		8CB5260D2D5AAC60007085DD /* WindowCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCapturer.swift; sourceTree = "<group>"; };
 		8CB5260F2D5AAC77007085DD /* WindownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindownManager.swift; sourceTree = "<group>"; };
 		8CB526122D5AAF2E007085DD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		8CB526182D5B63F0007085DD /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		8CB5261A2D5B662E007085DD /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +153,7 @@
 		8CB525B62D5A9739007085DD /* aladin */ = {
 			isa = PBXGroup;
 			children = (
+				8CB526142D5AC489007085DD /* Components */,
 				8CB5260B2D5AAC40007085DD /* Helpers */,
 				8CB526002D5AA9B7007085DD /* Scenes */,
 				8CB525FB2D5AA19C007085DD /* Commons */,
@@ -252,6 +263,7 @@
 			children = (
 				8CB525FC2D5AA1AC007085DD /* Space.swift */,
 				8CB525FE2D5AA3E7007085DD /* FontStyle.swift */,
+				8CB5261A2D5B662E007085DD /* Radius.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -287,6 +299,25 @@
 				8CB526122D5AAF2E007085DD /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CB526142D5AC489007085DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526152D5AC491007085DD /* Button */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8CB526152D5AC491007085DD /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */,
+				8CB526182D5B63F0007085DD /* ButtonType.swift */,
+				8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */,
+				8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,11 +453,16 @@
 			files = (
 				8CB526062D5AAA90007085DD /* ContainerServiceBoxView.swift in Sources */,
 				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
+				8CB5261B2D5B662E007085DD /* Radius.swift in Sources */,
 				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,
 				8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */,
+				8CB526212D5B6AAE007085DD /* LinkButtonStyle.swift in Sources */,
 				8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
+				8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
+				8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */,
+				8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
 				8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,

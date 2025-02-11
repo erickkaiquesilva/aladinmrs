@@ -41,29 +41,13 @@ struct ServiceBoxView: View {
                         Button(action: didDeselect) {
                             Text("Voltar para o inicio")
                         }
-                        .buttonStyle(
-                            CustomButtonStyle(
-                                textColor: .white,
-                                backgroundColor: .clear,
-                                height: 35,
-                                width: nil,
-                                font: .buttonLight
-                            )
-                        )
+                        .buttonStyle(LinkButtonStyle(type: .small, icon: nil))
                         Button {
                             didConfirme(text)
                         } label: {
                             Text("Autenticar")
                         }
-                        .buttonStyle(
-                            CustomButtonStyle(
-                                textColor: .white,
-                                backgroundColor: .backgroundPrimary,
-                                height: 35,
-                                width: nil,
-                                font: .buttonRegular
-                            )
-                        )
+                        .buttonStyle(PrimaryButtonStyle(type: .large))
                     }
                 }
             }

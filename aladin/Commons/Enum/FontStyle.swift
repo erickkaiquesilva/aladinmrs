@@ -37,6 +37,18 @@ extension Font {
     /// Small Description Font (14pt, Thin)
     static let descriptionSmall: Font = Font.custom(FontType.ralewayThin.rawValue, size: 14)
 
+    /// Small Button Font(14pt, Regular)
+    static let buttonSmall: Font = Font.custom(FontType.ralewayRegular.rawValue, size: 14)
+
+    /// Regular Button Font(16pt, Regular)
+    static let buttonRegular: Font = Font.custom(FontType.ralewayRegular.rawValue, size: 16)
+
+    /// Bold Button link (12pt, Bold)
+    static let linkBold: Font = Font.custom(FontType.ralewayBold.rawValue, size: 12)
+
+    /// Regular Button link (12pt, Bold)
+    static let linkRegular: Font = Font.custom(FontType.ralewayBold.rawValue, size: 12)
+    
     /// Create font style
     static func createFont(type: FontType, size: CGFloat) -> Self {
         return Font.custom(type.rawValue, size: size)

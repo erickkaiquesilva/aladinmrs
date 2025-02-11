@@ -11,7 +11,8 @@ import SwiftUI
 struct aladinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel: LoginViewModel = .init()
+            LoginView(viewModel: viewModel)
         }
     }
 }
