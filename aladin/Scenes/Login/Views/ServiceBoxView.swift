@@ -41,7 +41,7 @@ struct ServiceBoxView: View {
                         Button(action: didDeselect) {
                             Text("Voltar para o inicio")
                         }
-                        .buttonStyle(PrimaryButtonStyle(type: .large))
+                        .buttonStyle(LinkButtonStyle(type: .small, icon: nil))
                         Button {
                             didConfirme(text)
                         } label: {

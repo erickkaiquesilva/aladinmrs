@@ -32,6 +32,8 @@
 		8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */; };
 		8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526182D5B63F0007085DD /* ButtonType.swift */; };
 		8CB5261B2D5B662E007085DD /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5261A2D5B662E007085DD /* Radius.swift */; };
+		8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */; };
+		8CB526212D5B6AAE007085DD /* LinkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		8CB526182D5B63F0007085DD /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		8CB5261A2D5B662E007085DD /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +314,8 @@
 			children = (
 				8CB526162D5B6335007085DD /* PrimaryButtonStyle.swift */,
 				8CB526182D5B63F0007085DD /* ButtonType.swift */,
+				8CB5261E2D5B689D007085DD /* SecondaryButtonStyle.swift */,
+				8CB526202D5B6AAE007085DD /* LinkButtonStyle.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -450,11 +456,13 @@
 				8CB5261B2D5B662E007085DD /* Radius.swift in Sources */,
 				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,
 				8CB5260A2D5AABEC007085DD /* RepositoryType.swift in Sources */,
+				8CB526212D5B6AAE007085DD /* LinkButtonStyle.swift in Sources */,
 				8CB526042D5AAA11007085DD /* ServiceBoxView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */,
 				8CB525E42D5A9D2B007085DD /* Colors.swift in Sources */,
 				8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */,
+				8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
 				8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,

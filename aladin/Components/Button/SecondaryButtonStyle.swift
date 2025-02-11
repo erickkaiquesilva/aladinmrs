@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct PrimaryButtonStyle: ButtonStyle {
+struct SecondaryButtonStyle: ButtonStyle {
 
     let type: ButtonType
 
@@ -9,9 +9,10 @@ struct PrimaryButtonStyle: ButtonStyle {
             .font(type.font)
             .padding()
             .frame(height: type.height)
-            .background(.colorButtonPrimary)
+            .background(.colorButtonSecondary)
             .foregroundColor(.colorTertiary)
             .cornerRadius(Radius.xSmall.rawValue)
             .scaleEffect(configuration.isPressed ? 0.90 : 1.0)
     }
 }
+
