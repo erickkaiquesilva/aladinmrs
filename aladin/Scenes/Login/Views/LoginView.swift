@@ -2,54 +2,29 @@ import SwiftUI
 
 struct LoginView: View {
 
+    // MARK: - Private properties
     @StateObject private var viewModel: LoginViewModel
-    private var backgroundColor: Color {
-        switch viewModel.repositoryType {
-        case .bitbucket:
-            return .bitbucketBackground
-        case .gitlab:
-            return .gitlabBackground
-        case .github:
-            return .githubBackground
-        case .none:
-            return .colorPrimary
-        }
-    }
 
-    init(viewModel: LoginViewModel) {
+    // MARK: - Initializer
+    init(viewModel: LoginViewModel = LoginViewModel()) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
 
     var body: some View {
-        VStack {
-            Text("Aladin Merge's")
-                .font(.largeTitle)
-                .foregroundStyle(.colorPrimary)
-            if !viewModel.isLoading {
-                ContainerServiceBoxView(
-                    repositoryType: viewModel.repositoryType,
-                    isSelected: viewModel.isSelectedRepository,
-                    didSelected: viewModel.seletedRepository,
-                    didDeselected: viewModel.deselectedRepository,
-                    didConfirme: viewModel.authentication
-                )
-            }
-
-            if viewModel.isLoading {
-                /// TODO implementation component loading
-            }
-
-            if viewModel.errorState {
-                /// TODO implementation component erro
+        VStack(spacing: 40) {
+            if viewModel.selectedService == nil {
+                InitialLoginView(viewModel: viewModel)
+            } else {
+                AuthFormView(viewModel: viewModel)
             }
         }
-        .padding()
-        .background(WindowCapturer())
-        .onChange(of: viewModel.repositoryType) {
-            WindowManager.setWindowBackground(color: backgroundColor)
-        }
-        .onAppear {
-            WindowManager.setWindowBackground(color: .colorPrimary)
-        }
+        .frame(minWidth: 400, minHeight: 300)
+        .padding(30)
     }
 }
+
+//struct LoginView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginView()
+//    }
+//}

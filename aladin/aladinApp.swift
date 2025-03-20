@@ -11,8 +11,10 @@ import SwiftUI
 struct aladinApp: App {
     var body: some Scene {
         WindowGroup {
-            let viewModel: LoginViewModel = .init()
-            LoginView(viewModel: viewModel)
+//            let viewModel: LoginViewModel = .init()
+//            LoginView()
+            MRDetailView()
+                .frame(width: 1200, height: 600)
         }
     }
 }
