@@ -1,18 +1,18 @@
-//
-//  aladinApp.swift
-//  aladin
-//
-//  Created by Magalu on 10/02/25.
-//
-
 import SwiftUI
 
 @main
 struct aladinApp: App {
+
+    @StateObject var loginViewModel: LoginViewModel = .init()
+
     var body: some Scene {
         WindowGroup {
-            let viewModel: LoginViewModel = .init()
-            LoginView(viewModel: viewModel)
+            if loginViewModel.shouldNavigateToHome, let user = loginViewModel.userResponse {
+                let homeViewModel: HomeViewModel = .init(user: user)
+                HomeView(viewModel: homeViewModel)
+            } else {
+                LoginView(viewModel: loginViewModel)
+            }
         }
     }
 }

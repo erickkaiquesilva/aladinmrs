@@ -18,7 +18,7 @@ struct MenuItemView: View {
         }
         .padding(.vertical, 5)
         .padding(.horizontal, 10)
-        .background(Color(.systemGray))
+        .background(Color(.colorPrimary))
         .cornerRadius(6)
     }
 }

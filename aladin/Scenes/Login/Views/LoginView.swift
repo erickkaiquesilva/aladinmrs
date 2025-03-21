@@ -3,11 +3,11 @@ import SwiftUI
 struct LoginView: View {
 
     // MARK: - Private properties
-    @StateObject private var viewModel: LoginViewModel
+    @ObservedObject private var viewModel: LoginViewModel
 
     // MARK: - Initializer
-    init(viewModel: LoginViewModel = LoginViewModel()) {
-        _viewModel = StateObject(wrappedValue: viewModel)
+    init(viewModel: LoginViewModel) {
+        _viewModel = ObservedObject(wrappedValue: viewModel)
     }
 
     var body: some View {

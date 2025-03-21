@@ -2,23 +2,31 @@ import SwiftUI
 
 struct HomeView: View {
 
-    @StateObject private var viewModel = HomeViewModel()
+    // MARK: - Private properties
+    @StateObject private var viewModel: HomeViewModel
+
+    // MARK: - Initializer
+    init(viewModel: HomeViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
 
     var body: some View {
         HStack(spacing: 0) {
             MenuView(viewModel: viewModel)
                 .frame(width: viewModel.isMenuCollapsed ? 60 : 200)
-                .background(Color(.black))
+                .background(Color(.colorPrimary))
 
-            MRListView()
+            ProjectListView(viewModel: viewModel)
                 .frame(maxWidth: .infinity)
-                .background(Color(.black))
+                .background(Color(.colorPrimary))
 
             EmptyDetailView()
-                .frame(width: 300)
-                .background(Color(.black))
+                .background(Color(.colorPrimary))
         }
         .frame(minWidth: 800, minHeight: 500)
+        .onAppear {
+            viewModel.loadProjects()
+        }
     }
 }
 
