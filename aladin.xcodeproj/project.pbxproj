@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		8C7F715E2D5BF3A100A3ED05 /* InputNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F715D2D5BF3A100A3ED05 /* InputNormal.swift */; };
 		8C7F71602D5BF4CF00A3ED05 /* InputSecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F715F2D5BF4CF00A3ED05 /* InputSecure.swift */; };
+		8C86CC822D8CD03C003EE664 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC812D8CD03C003EE664 /* ProjectCardView.swift */; };
+		8C86CC862D8CD25D003EE664 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC852D8CD25D003EE664 /* ProjectListView.swift */; };
+		8C86CC882D8CD55C003EE664 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC872D8CD55C003EE664 /* HomeRepository.swift */; };
+		8C86CC8A2D8CD613003EE664 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC892D8CD613003EE664 /* HomeService.swift */; };
+		8C86CC8C2D8CD6DF003EE664 /* ProjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */; };
+		8C86CC8F2D8CDB3D003EE664 /* ProjectDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */; };
+		8C86CC912D8CECCD003EE664 /* HomeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC902D8CECCD003EE664 /* HomeDTO.swift */; };
 		8C87B8062D8B7F5700582C48 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 8C87B8052D8B7F5700582C48 /* NetworkLayer */; };
 		8C87B8082D8C317400582C48 /* InitialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8072D8C317400582C48 /* InitialLoginView.swift */; };
 		8C87B80A2D8C319500582C48 /* ServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8092D8C319500582C48 /* ServiceButton.swift */; };
@@ -25,6 +32,10 @@
 		8C87B8262D8C667F00582C48 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8252D8C667F00582C48 /* HeaderView.swift */; };
 		8C87B8282D8C66A100582C48 /* CommentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8272D8C66A100582C48 /* CommentListView.swift */; };
 		8C87B82A2D8C66B200582C48 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8292D8C66B200582C48 /* CommentView.swift */; };
+		8C87B82D2D8C89C900582C48 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B82C2D8C89C900582C48 /* LoginRepository.swift */; };
+		8C87B8302D8C8A2000582C48 /* NetworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B82F2D8C8A2000582C48 /* NetworkFactory.swift */; };
+		8C87B8332D8C969C00582C48 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8322D8C969C00582C48 /* LoginService.swift */; };
+		8C87B8362D8C97EA00582C48 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8352D8C97EA00582C48 /* UserResponse.swift */; };
 		8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B72D5A9739007085DD /* aladinApp.swift */; };
 		8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB525B92D5A9739007085DD /* LoginView.swift */; };
 		8CB525BC2D5A973A007085DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB525BB2D5A973A007085DD /* Assets.xcassets */; };
@@ -89,6 +100,13 @@
 /* Begin PBXFileReference section */
 		8C7F715D2D5BF3A100A3ED05 /* InputNormal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNormal.swift; sourceTree = "<group>"; };
 		8C7F715F2D5BF4CF00A3ED05 /* InputSecure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSecure.swift; sourceTree = "<group>"; };
+		8C86CC812D8CD03C003EE664 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		8C86CC852D8CD25D003EE664 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		8C86CC872D8CD55C003EE664 /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		8C86CC892D8CD613003EE664 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectResponse.swift; sourceTree = "<group>"; };
+		8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDTO.swift; sourceTree = "<group>"; };
+		8C86CC902D8CECCD003EE664 /* HomeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDTO.swift; sourceTree = "<group>"; };
 		8C87B8072D8C317400582C48 /* InitialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLoginView.swift; sourceTree = "<group>"; };
 		8C87B8092D8C319500582C48 /* ServiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceButton.swift; sourceTree = "<group>"; };
 		8C87B80B2D8C31D200582C48 /* AuthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormView.swift; sourceTree = "<group>"; };
@@ -104,6 +122,10 @@
 		8C87B8252D8C667F00582C48 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8C87B8272D8C66A100582C48 /* CommentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListView.swift; sourceTree = "<group>"; };
 		8C87B8292D8C66B200582C48 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		8C87B82C2D8C89C900582C48 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		8C87B82F2D8C8A2000582C48 /* NetworkFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFactory.swift; sourceTree = "<group>"; };
+		8C87B8322D8C969C00582C48 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		8C87B8352D8C97EA00582C48 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		8CB525B42D5A9739007085DD /* aladin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aladin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB525B72D5A9739007085DD /* aladinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aladinApp.swift; sourceTree = "<group>"; };
 		8CB525B92D5A9739007085DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -171,9 +193,63 @@
 			path = TextField;
 			sourceTree = "<group>";
 		};
+		8C86CC7E2D8CC924003EE664 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC872D8CD55C003EE664 /* HomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8C86CC7F2D8CC92B003EE664 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC892D8CD613003EE664 /* HomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8C86CC802D8CC931003EE664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C86CC832D8CD0BE003EE664 /* ListMrs */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC842D8CD0F6003EE664 /* View */,
+			);
+			path = ListMrs;
+			sourceTree = "<group>";
+		};
+		8C86CC842D8CD0F6003EE664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8162D8C36E800582C48 /* MRCellView.swift */,
+				8C87B8142D8C36CD00582C48 /* MRListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C86CC8D2D8CDB3B003EE664 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */,
+				8C86CC902D8CECCD003EE664 /* HomeDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		8C87B80D2D8C364D00582C48 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8C86CC8D2D8CDB3B003EE664 /* DTO */,
+				8C86CC802D8CC931003EE664 /* Model */,
+				8C86CC7F2D8CC92B003EE664 /* Service */,
+				8C86CC7E2D8CC924003EE664 /* Repository */,
 				8C87B8132D8C36A100582C48 /* ViewModel */,
 				8C87B80E2D8C365400582C48 /* View */,
 			);
@@ -183,10 +259,10 @@
 		8C87B80E2D8C365400582C48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8C86CC852D8CD25D003EE664 /* ProjectListView.swift */,
+				8C86CC812D8CD03C003EE664 /* ProjectCardView.swift */,
 				8C87B81A2D8C374F00582C48 /* HomeView.swift */,
 				8C87B8182D8C373500582C48 /* EmptyDetailView.swift */,
-				8C87B8162D8C36E800582C48 /* MRCellView.swift */,
-				8C87B8142D8C36CD00582C48 /* MRListView.swift */,
 				8C87B8112D8C368900582C48 /* MenuView.swift */,
 				8C87B80F2D8C366900582C48 /* MenuItemView.swift */,
 			);
@@ -227,6 +303,38 @@
 				8C87B8232D8C665600582C48 /* MRDetailView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8C87B82B2D8C89B900582C48 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B82C2D8C89C900582C48 /* LoginRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8C87B82E2D8C8A1300582C48 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B82F2D8C8A2000582C48 /* NetworkFactory.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8C87B8312D8C968300582C48 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8322D8C969C00582C48 /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8C87B8342D8C97DC00582C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8352D8C97EA00582C48 /* UserResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8CB525AB2D5A9739007085DD = {
@@ -333,6 +441,7 @@
 		8CB526002D5AA9B7007085DD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8C86CC832D8CD0BE003EE664 /* ListMrs */,
 				8C87B81E2D8C662500582C48 /* Detail */,
 				8C87B80D2D8C364D00582C48 /* Home */,
 				8CB526012D5AA9BD007085DD /* Login */,
@@ -343,6 +452,9 @@
 		8CB526012D5AA9BD007085DD /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8C87B8342D8C97DC00582C48 /* Model */,
+				8C87B8312D8C968300582C48 /* Service */,
+				8C87B82B2D8C89B900582C48 /* Repository */,
 				8CB526112D5AAF21007085DD /* ViewModel */,
 				8CB526022D5AA9C4007085DD /* Views */,
 			);
@@ -381,6 +493,7 @@
 		8CB5260B2D5AAC40007085DD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				8C87B82E2D8C8A1300582C48 /* Network */,
 				8CB5260C2D5AAC53007085DD /* Window */,
 			);
 			path = Helpers;
@@ -557,8 +670,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C86CC862D8CD25D003EE664 /* ProjectListView.swift in Sources */,
+				8C86CC8F2D8CDB3D003EE664 /* ProjectDTO.swift in Sources */,
+				8C86CC882D8CD55C003EE664 /* HomeRepository.swift in Sources */,
 				8C87B8152D8C36CD00582C48 /* MRListView.swift in Sources */,
 				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
+				8C86CC912D8CECCD003EE664 /* HomeDTO.swift in Sources */,
 				8CB5261B2D5B662E007085DD /* Radius.swift in Sources */,
 				8C87B8282D8C66A100582C48 /* CommentListView.swift in Sources */,
 				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,
@@ -569,8 +686,11 @@
 				8C87B8242D8C665600582C48 /* MRDetailView.swift in Sources */,
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8C87B8122D8C368900582C48 /* MenuView.swift in Sources */,
+				8C86CC8A2D8CD613003EE664 /* HomeService.swift in Sources */,
 				8C87B81D2D8C377200582C48 /* HomeViewModel.swift in Sources */,
+				8C87B8302D8C8A2000582C48 /* NetworkFactory.swift in Sources */,
 				8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */,
+				8C86CC8C2D8CD6DF003EE664 /* ProjectResponse.swift in Sources */,
 				8C7F71602D5BF4CF00A3ED05 /* InputSecure.swift in Sources */,
 				8C7F715E2D5BF3A100A3ED05 /* InputNormal.swift in Sources */,
 				8C87B8082D8C317400582C48 /* InitialLoginView.swift in Sources */,
@@ -579,16 +699,20 @@
 				8CB526172D5B6335007085DD /* PrimaryButtonStyle.swift in Sources */,
 				8C87B80C2D8C31D200582C48 /* AuthFormView.swift in Sources */,
 				8CB5261F2D5B689D007085DD /* SecondaryButtonStyle.swift in Sources */,
+				8C86CC822D8CD03C003EE664 /* ProjectCardView.swift in Sources */,
 				8C87B8212D8C662D00582C48 /* MRDetailViewModel.swift in Sources */,
 				8CB525E72D5A9E98007085DD /* FontType.swift in Sources */,
 				8CB526132D5AAF2E007085DD /* LoginViewModel.swift in Sources */,
 				8C87B8192D8C373500582C48 /* EmptyDetailView.swift in Sources */,
+				8C87B8332D8C969C00582C48 /* LoginService.swift in Sources */,
 				8C87B82A2D8C66B200582C48 /* CommentView.swift in Sources */,
 				8C87B8262D8C667F00582C48 /* HeaderView.swift in Sources */,
 				8CB525B82D5A9739007085DD /* aladinApp.swift in Sources */,
+				8C87B82D2D8C89C900582C48 /* LoginRepository.swift in Sources */,
 				8C87B80A2D8C319500582C48 /* ServiceButton.swift in Sources */,
 				8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */,
 				8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */,
+				8C87B8362D8C97EA00582C48 /* UserResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

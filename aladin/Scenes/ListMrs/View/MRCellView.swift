@@ -2,11 +2,27 @@ import SwiftUI
 
 struct MRCellView: View {
 
-    let status: String
-    let title: String
-    let description: String
-    let createdDate: String
-    let updatedDate: String
+    // MARK: - Private properties
+    private let status: String
+    private let title: String
+    private let description: String
+    private let createdDate: String
+    private let updatedDate: String
+
+    // MARK: - Initializer
+    init(
+        status: String,
+        title: String,
+        description: String,
+        createdDate: String,
+        updatedDate: String
+    ) {
+        self.status = status
+        self.title = title
+        self.description = description
+        self.createdDate = createdDate
+        self.updatedDate = updatedDate
+    }
 
     var body: some View {
         Button(action: {

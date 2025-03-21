@@ -12,5 +12,17 @@
 		<string>Raleway-Light.ttf</string>
 		<string>Raleway-Thin.ttf</string>
 	</array>
+
+    <key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>api.github.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

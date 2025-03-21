@@ -11,18 +11,18 @@ struct AuthFormView: View {
                 .foregroundColor(.primary)
 
             VStack(spacing: 15) {
-                TextField("Servidor (ex.: api.github.com)", text: $viewModel.server)
+                TextField("Serve (ex.: api.github.com)", text: $viewModel.server)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(maxWidth: 300)
-                
-                SecureField("Chave de Acesso", text: $viewModel.accessKey)
+
+                SecureField("Access Token", text: $viewModel.accessKey)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(maxWidth: 300)
             }
 
             HStack(spacing: 20) {
                 Button(action: {
-                    print("Autenticar com \(viewModel.server) e \(viewModel.accessKey)")
+                    viewModel.authentication()
                 }) {
                     Text("Autenticar")
                         .font(.system(size: 14, weight: .medium))
