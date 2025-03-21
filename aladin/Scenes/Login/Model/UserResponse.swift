@@ -4,7 +4,7 @@ struct UserResponse: Equatable, Codable {
 
     // MARK: - Properties
     let id: Int
-    let name: String?
+    let name: String
     let avatarUrl: String?
     let url: String?
     let login: String?

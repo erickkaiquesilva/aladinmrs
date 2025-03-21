@@ -13,7 +13,7 @@ struct ProjectListView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             // Título
-            Text("Projetos")
+            Text("Seus projetos \(viewModel.homeDto.userName)")
                 .font(.subtitleXlarge)
                 .padding(.vertical, 15)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -26,7 +26,7 @@ struct ProjectListView: View {
                     alignment: .leading,
                     spacing: 0
                 ) {
-                    ForEach(viewModel.projectDto) { project in
+                    ForEach(viewModel.homeDto.listProjects) { project in
                         ProjectCardView(
                             viewModel: viewModel,
                             dto: project

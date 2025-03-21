@@ -15,6 +15,7 @@
 		8C86CC8A2D8CD613003EE664 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC892D8CD613003EE664 /* HomeService.swift */; };
 		8C86CC8C2D8CD6DF003EE664 /* ProjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */; };
 		8C86CC8F2D8CDB3D003EE664 /* ProjectDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */; };
+		8C86CC912D8CECCD003EE664 /* HomeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC902D8CECCD003EE664 /* HomeDTO.swift */; };
 		8C87B8062D8B7F5700582C48 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 8C87B8052D8B7F5700582C48 /* NetworkLayer */; };
 		8C87B8082D8C317400582C48 /* InitialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8072D8C317400582C48 /* InitialLoginView.swift */; };
 		8C87B80A2D8C319500582C48 /* ServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8092D8C319500582C48 /* ServiceButton.swift */; };
@@ -105,6 +106,7 @@
 		8C86CC892D8CD613003EE664 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectResponse.swift; sourceTree = "<group>"; };
 		8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDTO.swift; sourceTree = "<group>"; };
+		8C86CC902D8CECCD003EE664 /* HomeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDTO.swift; sourceTree = "<group>"; };
 		8C87B8072D8C317400582C48 /* InitialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLoginView.swift; sourceTree = "<group>"; };
 		8C87B8092D8C319500582C48 /* ServiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceButton.swift; sourceTree = "<group>"; };
 		8C87B80B2D8C31D200582C48 /* AuthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormView.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */,
+				8C86CC902D8CECCD003EE664 /* HomeDTO.swift */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				8C86CC882D8CD55C003EE664 /* HomeRepository.swift in Sources */,
 				8C87B8152D8C36CD00582C48 /* MRListView.swift in Sources */,
 				8CB525FD2D5AA1AC007085DD /* Space.swift in Sources */,
+				8C86CC912D8CECCD003EE664 /* HomeDTO.swift in Sources */,
 				8CB5261B2D5B662E007085DD /* Radius.swift in Sources */,
 				8C87B8282D8C66A100582C48 /* CommentListView.swift in Sources */,
 				8CB525BA2D5A9739007085DD /* LoginView.swift in Sources */,

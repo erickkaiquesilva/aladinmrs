@@ -5,7 +5,7 @@ final class HomeViewModel: ObservableObject {
     // MARK: - Published properties
     @Published var isMenuCollapsed: Bool = false
     @Published var hasError: Bool = false
-    @Published var projectDto: [ProjectDTO] = []
+    @Published var homeDto: HomeDTO = .init()
 
     // MARK: - Private properties
     private let user: UserResponse
@@ -38,13 +38,19 @@ final class HomeViewModel: ObservableObject {
 
 private extension HomeViewModel {
     func buildDTO(_ object: [ProjectResponse]) {
-        projectDto = object.compactMap {
+        let projectDto = object.compactMap {
             ProjectDTO(
                 id: "\($0.id)",
+                userName: user.name,
                 name: $0.name,
                 description: $0.description,
                 imageUrl: $0.avatarUrl
             )
         }
+
+        homeDto = .init(
+            userName: user.name,
+            listProjects: projectDto
+        )
     }
 }
