@@ -1,5 +1,6 @@
 import Foundation
 import NetworkLayer
+import SwiftUI
 
 final class LoginViewModel: ObservableObject {
 
@@ -7,14 +8,15 @@ final class LoginViewModel: ObservableObject {
     @Published var selectedService: String?
     @Published var server: String = ""
     @Published var accessKey: String = ""
-    @Published var shouldNavigateToHome: Bool = false
-    @Published var userResponse: UserResponse?
 
     // MARK: - Private properties
     private let repository: LoginRepositoryType
+    @EnvironmentObject private var navigationState: NavigationState
 
     // MARK: - Initializer
-    init(repository: LoginRepositoryType = LoginRepository()) {
+    init(
+        repository: LoginRepositoryType = LoginRepository()
+    ) {
         self.repository = repository
     }
 
@@ -33,8 +35,7 @@ final class LoginViewModel: ObservableObject {
         ) { [weak self] result in
             switch result {
             case .success(let response):
-                self?.userResponse = response
-                self?.shouldNavigateToHome = true
+                self?.navigationState.navigate(to: .home(response))
             case .failure(let err):
                 print(err.localizedDescription)
             }

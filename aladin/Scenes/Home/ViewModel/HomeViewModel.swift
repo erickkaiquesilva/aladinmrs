@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 final class HomeViewModel: ObservableObject {
 
@@ -10,11 +11,13 @@ final class HomeViewModel: ObservableObject {
     // MARK: - Private properties
     private let user: UserResponse
     private let repository: HomeRepositoryType
+    @EnvironmentObject private var navigationState: NavigationState
 
     // MARK: - Initializer
     init(
         user: UserResponse,
-        repository: HomeRepositoryType = HomeRepository()
+        repository: HomeRepositoryType = HomeRepository(),
+        navigationState: NavigationState = .init()
     ) {
         self.user = user
         self.repository = repository
@@ -32,7 +35,7 @@ final class HomeViewModel: ObservableObject {
     }
 
     func openMRList(forProject: String) {
-        print(forProject)
+//        navigationState.navigate(to: .mrList(projectId: forProject))
     }
 }
 

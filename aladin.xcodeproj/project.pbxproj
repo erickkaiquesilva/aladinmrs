@@ -16,6 +16,9 @@
 		8C86CC8C2D8CD6DF003EE664 /* ProjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */; };
 		8C86CC8F2D8CDB3D003EE664 /* ProjectDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */; };
 		8C86CC912D8CECCD003EE664 /* HomeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC902D8CECCD003EE664 /* HomeDTO.swift */; };
+		8C86CC942D8CF1A3003EE664 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC932D8CF1A3003EE664 /* AppRoute.swift */; };
+		8C86CC962D8CF1B7003EE664 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC952D8CF1B7003EE664 /* NavigationState.swift */; };
+		8C86CC992D8CF2B9003EE664 /* MRListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86CC982D8CF2B9003EE664 /* MRListViewModel.swift */; };
 		8C87B8062D8B7F5700582C48 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 8C87B8052D8B7F5700582C48 /* NetworkLayer */; };
 		8C87B8082D8C317400582C48 /* InitialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8072D8C317400582C48 /* InitialLoginView.swift */; };
 		8C87B80A2D8C319500582C48 /* ServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8092D8C319500582C48 /* ServiceButton.swift */; };
@@ -107,6 +110,9 @@
 		8C86CC8B2D8CD6DF003EE664 /* ProjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectResponse.swift; sourceTree = "<group>"; };
 		8C86CC8E2D8CDB3D003EE664 /* ProjectDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDTO.swift; sourceTree = "<group>"; };
 		8C86CC902D8CECCD003EE664 /* HomeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDTO.swift; sourceTree = "<group>"; };
+		8C86CC932D8CF1A3003EE664 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		8C86CC952D8CF1B7003EE664 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		8C86CC982D8CF2B9003EE664 /* MRListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRListViewModel.swift; sourceTree = "<group>"; };
 		8C87B8072D8C317400582C48 /* InitialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLoginView.swift; sourceTree = "<group>"; };
 		8C87B8092D8C319500582C48 /* ServiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceButton.swift; sourceTree = "<group>"; };
 		8C87B80B2D8C31D200582C48 /* AuthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormView.swift; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		8C86CC832D8CD0BE003EE664 /* ListMrs */ = {
 			isa = PBXGroup;
 			children = (
+				8C86CC972D8CF299003EE664 /* ViewModel */,
 				8C86CC842D8CD0F6003EE664 /* View */,
 			);
 			path = ListMrs;
@@ -241,6 +248,23 @@
 				8C86CC902D8CECCD003EE664 /* HomeDTO.swift */,
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		8C86CC922D8CF191003EE664 /* AppRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC952D8CF1B7003EE664 /* NavigationState.swift */,
+				8C86CC932D8CF1A3003EE664 /* AppRoute.swift */,
+			);
+			path = AppRoute;
+			sourceTree = "<group>";
+		};
+		8C86CC972D8CF299003EE664 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C86CC982D8CF2B9003EE664 /* MRListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8C87B80D2D8C364D00582C48 /* Home */ = {
@@ -493,6 +517,7 @@
 		8CB5260B2D5AAC40007085DD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				8C86CC922D8CF191003EE664 /* AppRoute */,
 				8C87B82E2D8C8A1300582C48 /* Network */,
 				8CB5260C2D5AAC53007085DD /* Window */,
 			);
@@ -687,7 +712,9 @@
 				8CB525FF2D5AA3E7007085DD /* FontStyle.swift in Sources */,
 				8C87B8122D8C368900582C48 /* MenuView.swift in Sources */,
 				8C86CC8A2D8CD613003EE664 /* HomeService.swift in Sources */,
+				8C86CC942D8CF1A3003EE664 /* AppRoute.swift in Sources */,
 				8C87B81D2D8C377200582C48 /* HomeViewModel.swift in Sources */,
+				8C86CC962D8CF1B7003EE664 /* NavigationState.swift in Sources */,
 				8C87B8302D8C8A2000582C48 /* NetworkFactory.swift in Sources */,
 				8CB526192D5B63F0007085DD /* ButtonType.swift in Sources */,
 				8C86CC8C2D8CD6DF003EE664 /* ProjectResponse.swift in Sources */,
@@ -713,6 +740,7 @@
 				8CB5260E2D5AAC60007085DD /* WindowCapturer.swift in Sources */,
 				8CB526102D5AAC77007085DD /* WindownManager.swift in Sources */,
 				8C87B8362D8C97EA00582C48 /* UserResponse.swift in Sources */,
+				8C86CC992D8CF2B9003EE664 /* MRListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
